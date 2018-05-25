@@ -1,0 +1,85 @@
+body {
+    background-color: orange;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'IM Fell French Canon SC', serif;
+} 
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.this-list-item {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#top-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#title {
+    margin: 115px 50px 0 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar-light,
+.navbar-nav,
+.nav-link {
+    color:white !important;
+    transition: transition: font 0.3s ease !important;
+}
+
+.navbar-light:hover,
+.navbar-nav:hover,
+.nav-link:hover {
+    color: orange !important;
+}
+
+#personality-description-container {
+    margin: 25px 100px 0 100px;
+    padding: 0 60px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#strengths-weakness-container {
+    padding: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#important-container {
+    padding: 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#important-container-child {
+    margin-top: 100px;
+}
+
+#important {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+.important-list {
+    list-style-type: none;
+    font-family: 'Hind Siliguri', sans-serif;
+}
